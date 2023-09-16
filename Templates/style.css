@@ -1,0 +1,38 @@
+
+.login {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Style for the heading */
+.login h1 {
+  font-size: 24px;
+}
+
+/* Style for input fields */
+.login input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+/* Style for the submit button */
+.login button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Style for the submit button on hover */
+.login button[type="submit"]:hover {
+  background-color: #0056b3;
+}

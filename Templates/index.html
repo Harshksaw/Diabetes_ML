@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Diabetes ML Model using Logistic Regression</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="login">
+
+    <h1 class="heading">Diabetes Prediction</h1>
+    <form class="form" action="{{ url_for('predict_datapoint')}}" method="post">
+      <input class="input" type="text" name="Pregnancies" placeholder="Pregnancies" required="required"><br>
+      <input class="input" type="text" name="Glucose" placeholder="Glucose" required="required"><br>
+      <input class="input" type="text" name="BloodPressure" placeholder="BloodPressure" required="required"><br>
+      <input class="input" type="text" name="SkinThickness" placeholder="SkinThickness" required="required"><br>
+      <input class="input" type="text" name="Insulin" placeholder="Insulin" required="required"><br>
+      <input class="input" type="text" name="BMI" placeholder="BMI" required="required"><br>
+      <input class="input" type="text" name="DiabetesPedigreeFunction" placeholder="DiabetesPedigreeFunction" required="required"><br>
+      <input class="input" type="text" name="Age" placeholder="Age" required="required"><br>
+      <button class="button" type="submit">Predict</button>
+    </form>
+  </div>
+</body>
+</html>
