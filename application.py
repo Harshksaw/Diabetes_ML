@@ -11,10 +11,6 @@ app=application
 scaler=pickle.load(open("./Model/scaler.pkl", "rb"))
 model = pickle.load(open("./Model/modelPrediction.pkl", "rb"))
 
-## Route for homepage
-
-
-## Route for Single data point prediction
 @app.route('/',methods=['GET','POST'])
 def predict_datapoint():
     result=""
